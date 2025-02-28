@@ -6,12 +6,12 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    <>
+    <div className='main-grid'>
       <Header />
       <Nav />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 }
 
