@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&family=Karlo:wght@300;600&display=swap');
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
@@ -23,14 +25,28 @@ a:hover {
 }
 
 body {
-  margin: 0;
   min-width: 320px;
   min-height: 100vh;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: 'Markazi Text', serif;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Markazi Text', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+p {
+  font-family: 'Karlo', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
 
 button {
@@ -50,6 +66,10 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+img {
+  border-radius: 0;
 }
 
 @media (prefers-color-scheme: light) {
