@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&family=Karlo:wght@300;600&display=swap');
+@media screen and (max-width: 700px) {
+  header,
+  nav > ul,
+  .highlight-body {
+    flex-direction: column;
+  }
+}
 
+/* @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap'); */
+/*
 :root {
-  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -34,6 +42,7 @@ h1 {
   font-size: 4rem;
   font-weight: 500;
   line-height: 1;
+  color: ;
 }
 
 h2 {
@@ -72,7 +81,13 @@ img {
   border-radius: 0;
 }
 
-@media (prefers-color-scheme: light) {
+li {
+  font-family: 'karla';
+  font-weight: 500;
+  font-size: 1.25rem;
+} */
+
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -83,4 +98,4 @@ img {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

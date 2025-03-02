@@ -1,35 +1,25 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 div .main-grid {
   display: grid;
-  height: 200px;
   grid-template-areas:
-    'head nav'
-    'main  main'
-    'footer  footer';
-  grid-template-columns: 1fr 1fr;
+    'head'
+    'main'
+    'footer';
   grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr min(1200px, 90%) 1fr;
+}
+
+.main-grid > * {
+  grid-column: 2;
 }
 
 header {
   grid-area: head;
-  background-color: red;
-}
-
-nav {
-  grid-area: nav;
-  background-color: yellow;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav li {
-  display: inline-flex;
 }
 
 main {
@@ -37,6 +27,6 @@ main {
 }
 
 footer {
+  height: 100px;
   grid-area: footer;
-  background-color: paleturquoise;
 }

@@ -1,0 +1,20 @@
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 8px 20px;
+  color: #333;
+}
+
+nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
